@@ -19,7 +19,7 @@ class PostAdmin(admin.ModelAdmin):
         "title",
         "subtitle",
         "slug",
-        "Publish_date",
+        "publish_date",
         "published",
     ) 
     list_filter =(
@@ -31,7 +31,7 @@ class PostAdmin(admin.ModelAdmin):
         "subtitle",
         "slug",
         "publish_date",
-        "Published",
+        "published",
 
     )
     search_fields =(
